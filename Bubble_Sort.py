@@ -8,6 +8,7 @@ def sort(nums):
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
                 print(nums)
+
 nums = [61,45,97,59,25,16,62,72,48,65]
 print("----------------------BUBBLE SORT----------------------")
 print("Unsorted List:", nums)
