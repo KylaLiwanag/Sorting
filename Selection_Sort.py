@@ -17,4 +17,4 @@ nums = [61,45,97,59,25,16,62,72,48,65]
 print("---------------------SELECTION SORT--------------------")
 print("Unsorted List:", nums,"\n")
 sort(nums)
-print("Sorted List:",nums,"\n")
+print("\nSorted List:",nums,"\n")
