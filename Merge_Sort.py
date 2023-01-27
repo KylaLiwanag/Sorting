@@ -4,9 +4,11 @@ def sort(nums):
     if len(nums) > 1:
         left_nums = nums[:len(nums)//2]
         right_nums = nums[len(nums)//2:]
+        print(left_nums,right_nums)
 
         sort(left_nums)
         sort(right_nums)
+        print(left_nums,right_nums)
 
         i = 0
         j = 0
